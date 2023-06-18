@@ -1,10 +1,10 @@
 const form = document.getElementById("chat-form");
 const input = document.getElementById("chat-input");
 const messages = document.getElementById("chat-messages");
-const apiKey = "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";
+const apiKey = "API-KEY-HERE";
 
 const preText =
-  "I am your personal informational guide for the upcoming and previous UEFA Champions League games. I can provide you with details such as schedules, teams, scores, and statistics. Please ask me any question related to the tournament and I will provide you with a concise answer. ";
+  "I am a Heathcare chatbot and I will answer health related queries.";
 
 form.addEventListener("submit", async (e) => {
   e.preventDefault();
